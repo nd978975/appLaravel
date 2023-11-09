@@ -17,9 +17,9 @@ return [
 
     'paths' => ['api/*', 'sanctum/csrf-cookie', 'api'],
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['POST', 'GET'],
 
-    'allowed_origins' => [env('FRONTEND_URL', 'https://octopus-app-faji7.ondigitalocean.app')],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
