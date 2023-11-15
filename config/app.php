@@ -57,10 +57,6 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'frontend_url' => env('FRONTEND_URL', 'https://salmon-river-01bdb0800.4.azurestaticapps.net'),
-
-    'frontend_url' => env('FRONTEND_URL', 'https://salmon-river-01bdb0800.4.azurestaticapps.net'),
-
     'asset_url' => env('ASSET_URL'),
 
     /*

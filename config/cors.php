@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ["https://salmon-river-01bdb0800.4.azurestaticapps.net"],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
